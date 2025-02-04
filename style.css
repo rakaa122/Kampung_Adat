@@ -1,0 +1,201 @@
+* {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+body {
+    background-color: #ffd5c2;
+    margin: 0;
+    padding: 0;
+}
+main {
+    justify-content: center;
+}
+i {
+    color: white;
+    font-size: 27px;
+    display: none;
+    padding-right: 1em;
+}
+nav {
+    background-color: #588b8b;
+    display: flex;
+    padding: 0.1em;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navlink {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 5em;
+    justify-content: right;
+    margin-right: 3em;
+}
+nav ul li {
+    display: flex;
+    display: inline-block;
+    padding: 1em;
+}
+.nama {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.3em;
+    margin: 1em;
+}
+.homeatas {
+    height: 100vh;
+    display: flex;
+    gap: 3em;
+}
+.gambarawal {
+    margin-top: 15em;
+    border-radius: 2em;
+    height: 25em;
+}
+.tulisanawal {
+    margin-left: 10em;
+    margin-top: 20em;
+}
+.namakampung {
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+.namakampung2 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.penjelasansingkat {
+    max-width: 40em;
+    text-align: justify;
+}
+figcaption {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.hall2 {
+    display: flex;
+    height: 45vh;
+    gap: 10em;
+}
+.fotoorg {
+    border-radius: 2em;
+    height: 20em;
+}
+.fotohal2 {
+    margin-left: 3em;
+}
+.judul1 {
+    margin-top: 5em;
+}
+.isi1 {
+    text-align: justify;
+    max-width: 40em;
+}
+.hall3 {
+    display: flex;
+    height: 45vh;
+    gap: 5em;
+}
+.fotorumah {
+    height: 20em;
+    border-radius: 2em;
+}
+.tulisanhal3 {
+    margin-left: 10em;
+}
+.judul2 {
+    margin-top: 5em;
+}
+.isi2 {
+    max-width: 40em;
+    text-align: justify;
+}
+.hall4 {
+    display: flex;
+    height: 45vh;
+    gap: 10em;
+}
+.foto {
+    height: 20em;
+    border-radius: 2em;
+    width: 30em;
+}
+.judul4 {
+    margin-top: 2.5em;
+}
+.isi4 {
+    max-width: 40em;
+    text-align: justify;
+}
+.fotokiri {
+    margin-left: 3em;
+}
+
+.hall5 {
+    display: flex;
+    height: 45vh;
+    gap: 5em;
+}
+.judul5 {
+    margin-top: 2.5em;
+}
+.isi5 {
+    text-align: justify;
+    max-width: 35em;
+}
+.isikiri {
+    margin-left: 10em;
+}
+
+.hall6 {
+    display: flex;
+    height: 45vh;
+    gap: 10em;
+}
+.judul6 {
+    margin-top: 5em;
+}
+.isi6 {
+    max-width: 40em;
+}
+
+.hall7 {
+    display: flex;
+    height: 45vh;
+    gap: 4em;
+}
+.judul7 {
+    margin-top: 3em;
+}
+.isi7 {
+    text-align: justify;
+    max-width: 40em;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    * {
+        margin: 0;
+    }
+    figure {
+        display: none;
+    }
+    figcaption {
+        display: none;
+    }
+}
+
